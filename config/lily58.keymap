@@ -30,8 +30,7 @@
             >;
 
             /* ENCODERS: Left = PgUp/Dn (Logs), Right = Undo/Redo (Code) */
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp UP DOWN>;
-
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -50,10 +49,7 @@
             >;
             
             /* ENCODERS: Standard Volume & Page Scroll on this layer */
-            /*
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-            */
-
         };
 
         raise_layer {
@@ -72,10 +68,7 @@
             >;
 
             /* ENCODERS: Standard Volume & Page Scroll on this layer */
-            /*
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-            */
-
         };
 
         function_layer {

@@ -18,7 +18,9 @@
 #
 ---
 include:
-  - board: nice_nano
-    shield: sofle_left
-  - board: nice_nano
-    shield: sofle_right
+  - board: nice_nano@1.0.0
+    shield: lily58_left
+  - board: nice_nano@1.0.0
+    shield: lily58_right
+  - board: nice_nano@1.0.0
+    shield: settings_reset

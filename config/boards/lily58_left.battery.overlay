@@ -1,0 +1,13 @@
+/ {
+    chosen {
+        zmk,battery = &adc_battery;
+    };
+
+    adc_battery: adc_battery {
+        compatible = "zmk,battery-voltage-divider";
+        io-chains = <&adc 2>;
+        output-microvolts = <3300000>;
+        full-microvolts = <4200000>;
+        empty-microvolts = <3450000>;
+    };
+};
