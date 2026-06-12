@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lily58}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', \, TAB, Q, W, E, R, T, Y, U, I, O, P, ENTER, LSHIFT, A, S, D, F, G, H, J, K, L, ;, UP, LCTRL, Z,
-    X, C, V, B, '[', ']', N, M, ',', ., /, DOWN, LALT, LGUI, L1, SPACE, BSPC, L2, LEFT, RIGHT]
+  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', \, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', LSHIFT, A, S, D, F, G, H, J, K, L, ;, UP, LCTRL, Z,
+    X, C, V, B, '[', ']', N, M, ',', ., /, DOWN, LALT, LGUI, L1, SPACE, BSPC, ENTER, LEFT, RIGHT]
   L1:
   - '`'
   - F1
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   L3:
