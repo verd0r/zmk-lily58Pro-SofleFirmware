@@ -194,3 +194,6 @@ This configuration is provided as-is for personal use. Refer to ZMK's license fo
 **Note**: If you have a similar "Lily58 Pro" from the same seller and are experiencing issues, try building with Sofle firmware instead!
 
 
+https://nickcoutsos.github.io/keymap-editor/
+
+
